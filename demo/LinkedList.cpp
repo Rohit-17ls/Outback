@@ -1,5 +1,6 @@
 #include <iostream>
 #include "../utils/LinkedListUtil.h"
+#include "../utils/TemplatedLinkedList.h"
 // #include "../utils/simplevectorutil.h"
 #include <vector>
 #define devlog(x) { std::cout << x << std::endl;}

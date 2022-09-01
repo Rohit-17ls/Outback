@@ -1,5 +1,5 @@
 #include <iostream>
-#include <bits/stdc++.h>
+#include <vector>
 
 namespace outback{
   template <typename type>
@@ -63,9 +63,19 @@ namespace outback{
     ~Simplevectorutil(){}
 
 
-
-
-
-
   };
 }
+
+
+/*
+  Methods:
+    i) logVector()
+        - Logs the array out to the console in a single line separated by a character
+        - Two Optional arguments , a separation character and a special indices vector
+        - Default separation character is comma ','
+        - Special Indices vector takes in a bunch of indices which will be printed with a [] around them
+
+    ii) setSeparator()
+        - Another way to set the separation character (using a method)
+
+*/
